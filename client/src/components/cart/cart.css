@@ -1,0 +1,156 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this value as needed */
+    text-align: center;
+  }
+  
+  .error h2, .error p {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #023770;
+  }
+
+
+
+  .temp {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center; 
+  }
+
+  .temp .imgage {
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 10px;
+  }
+  
+  .temp .categories {
+    display: flex;
+    align-items: center;
+  }
+  
+   .categories span {
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .temp .texts {
+    flex: 1;
+  }
+  
+  .temp .areas {
+    margin-top: 10px;
+  }
+  
+  .temp .horizontal_line {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .temp button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .btn01 {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn01:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn00 {
+    margin-right: 500px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butn00:hover {
+    background-color: #0056b3;
+  } 
+  .btn002{
+    margin-top: 6px;
+    padding: 6px 10px;
+    background-color:#e74b1f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 6px;
+  }
+  .btn003 {
+    margin-top: 6px;
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .btn002:hover {
+    background-color:#8e0707;
+    
+  }
+  
+  .btn003:hover {
+    background-color: #0056b3;
+  }
+  
+
+.arrow-icon {
+  cursor: pointer;
+  font-size: 24px; /* Adjust the size as needed */
+  color: #25b579; /* Adjust the color as needed */
+  margin-left: 157px; /* Adjust spacing as needed */
+  vertical-align: middle; /* Vertically align with the text */
+}
+.span{
+  color:#010345;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  
+ 
+}
+.line {
+  border: none;
+  height: 1px;
+  background-color: #b8bcbe; /* Set your desired color here */
+  margin:10px 0; /* Add top and bottom margin */
+  margin-left: 157px; /* Add left margin */
+  margin-right: 157px; /* Add right margin */
+}

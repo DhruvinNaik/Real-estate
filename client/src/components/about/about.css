@@ -1,0 +1,35 @@
+.about {
+    margin-bottom: 80px;
+  }
+  .about .heading {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about p {
+    font-size: 15px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .head{
+    font-weight: bold;
+    color: rgb(98, 95, 95);
+  }
+  .horizontal-line {
+    width: 100%; /* Adjust the width to fit your needs */
+    height: 1px; /* Adjust the height of the line */
+    background-color: #d3cbcb; /* Change the color to your desired line color */
+    margin: 10px 0; /* Adjust the margin as needed to add spacing above and below the line */
+  }
+  @media screen and (max-width: 768px) {
+    .about .container {
+      flex-direction: column;
+    }
+    .about p {
+      padding: 0;
+    }
+    .about .container img {
+      margin-top: 50px;
+    }
+  }

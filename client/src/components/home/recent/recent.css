@@ -1,0 +1,40 @@
+.recent .text {
+    padding: 30px;
+  }
+  .recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .recent .category i {
+    font-size: 20px;
+    color: #bec7d8;
+  }
+  .recent p {
+    color: #72809d;
+  }
+  .recent .button{
+    border-top: 1px solid #e4e8f3;
+    padding: 10px 30px;
+  }
+  .btn2:hover{
+    background: #000;
+  }
+.bt{
+  transition-duration: 0.4s;
+}
+.bt:hover{
+  background-color: #b8bbb8;
+  color: white;
+}
+.bt{
+  size: 0dvi;
+  background-color: white;
+  color: rgb(180, 174, 174);
+  border: 2px solid #cecece;
+  font-size: small;
+  font-style:italic ;
+  border-radius: 8px;
+}
